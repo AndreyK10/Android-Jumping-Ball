@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
     
     private void Jump()
     {
-        rb.AddForce(Vector2.up * jumpForce);
+        if (!SystemScript.isPaused) rb.velocity = Vector2.up * jumpForce;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

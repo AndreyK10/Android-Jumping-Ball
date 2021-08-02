@@ -418,7 +418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc723005803f2de4588d88392097d5b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 250
+  jumpForce: 4
 --- !u!50 &168040629
 Rigidbody2D:
   serializedVersion: 4
@@ -1103,7 +1103,7 @@ MonoBehaviour:
   poolSize: 50
   spawnInterval: 0.25
   minHeight: 3
-  maxHeight: 6
+  maxHeight: 5
 --- !u!1 &481840495
 GameObject:
   m_ObjectHideFlags: 0
