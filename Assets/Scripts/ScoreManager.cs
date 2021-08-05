@@ -5,7 +5,7 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] private float score;
     [SerializeField] private float scorePerSecond;
     public static int Score { get; private set; }
-    public const string PREFS_HIGHSCORE = "Highscore_v1.0";
+    public const string PREFS_HIGHSCORE = "Highscore_v2.0";
 
     void Start()
     {

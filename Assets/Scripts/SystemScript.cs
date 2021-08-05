@@ -38,5 +38,6 @@ public class SystemScript : MonoBehaviour
     public void DeleteHighscore()
     {
         PlayerPrefs.DeleteAll();
+        SkinManager.instance.EquipDefaultSkin();
     }
 }
