@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SpawnController : MonoBehaviour
 {
-    public GameObject obstaclePrefab;
-    public GameObject[] spawnPoints;
-    public Transform obstacleContainer;
+    [SerializeField] private GameObject obstaclePrefab;
+    [SerializeField] private GameObject[] spawnPoints;
+    [SerializeField] private Transform obstacleContainer;
 
     public static Queue<GameObject> Obstacles;
 

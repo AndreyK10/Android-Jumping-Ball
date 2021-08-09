@@ -3,7 +3,7 @@ using TMPro;
 
 public class MainMenuUI : MonoBehaviour
 {
-    public TextMeshProUGUI mainMenuHighscore;
+    [SerializeField] private TextMeshProUGUI mainMenuHighscore;
 
     private void Update()
     {

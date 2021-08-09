@@ -3,11 +3,11 @@ using TMPro;
 
 public class UIScript : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText, highscore, scoreTextLS;
-    public GameObject losePanel, pauseButton;
+    [SerializeField] private TextMeshProUGUI scoreText, highscore, scoreTextLS;
+    [SerializeField] private GameObject losePanel, pauseButton;
 
 
-    void Update()
+    private void Update()
     {
         scoreText.text = ScoreManager.Score.ToString();
         if (PlayerController.isDead)

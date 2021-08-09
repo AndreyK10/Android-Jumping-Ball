@@ -7,12 +7,12 @@ public class ScoreManager : MonoBehaviour
     public static int Score { get; private set; }
     public const string PREFS_HIGHSCORE = "Highscore_v2.0";
 
-    void Start()
+    private void Start()
     {
         score = 0f;
     }
 
-    void Update()
+    private void Update()
     {
         score += scorePerSecond * Time.deltaTime;
         Score = Mathf.RoundToInt(score);
